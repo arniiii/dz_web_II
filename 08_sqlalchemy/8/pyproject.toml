@@ -1,0 +1,17 @@
+[project]
+name = "sqlalchemy-task-8"
+version = "0.1.0"
+description = "Учебное задание 8 по SQLAlchemy"
+requires-python = ">=3.11"
+dependencies = [
+    "sqlalchemy>=2.0.36,<2.1",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.0.1",
+    "asyncpg>=0.30.0",
+    "greenlet>=3.1.1",]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.3",
+    "pytest-asyncio>=0.24.0",]
+

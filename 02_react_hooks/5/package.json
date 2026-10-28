@@ -1,0 +1,21 @@
+{
+    "dependencies": {
+        "i18next": "^23.12.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-i18next": "^15.0.0"
+    },
+    "scripts": {
+        "test": "playwright test --reporter=list",
+        "serve": "vite",
+        "start": "vite"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.45.2",
+        "@vitejs/plugin-react": "^4.3.4",
+        "vite": "^5.4.11"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}

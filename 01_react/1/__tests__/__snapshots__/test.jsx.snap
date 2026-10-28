@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <h4
+      className="card-title"
+    >
+      Card title
+    </h4>
+    <p
+      className="card-text"
+    >
+      Some quick example text to build on the card
+    </p>
+    <button
+      className="btn btn-primary"
+      type="button"
+    >
+      Go somewhere
+    </button>
+  </div>
+</div>
+`;

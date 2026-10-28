@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListGroup 1 1`] = `
+<ul
+  className="list-group"
+>
+  <li
+    className="list-group-item"
+  >
+    <p>
+      one
+    </p>
+  </li>
+  <li
+    className="list-group-item"
+  >
+    <p>
+      two
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup 2 1`] = `
+<ul
+  className="list-group"
+>
+  <li
+    className="list-group-item"
+  >
+    <a
+      href="google"
+    >
+      google
+    </a>
+  </li>
+  <li
+    className="list-group-item"
+  >
+    <a
+      href="yandex"
+    >
+      yandex
+    </a>
+  </li>
+  <li
+    className="list-group-item"
+  >
+    <a
+      href="mail"
+    >
+      mail
+    </a>
+  </li>
+</ul>
+`;

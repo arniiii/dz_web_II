@@ -1,0 +1,10 @@
+psycopg[binary]==3.3.6
+psycopg2-binary==2.9.13
+SQLAlchemy==2.0.55
+python-dotenv==1.2.4
+asyncpg==0.32.0
+pytest==9.1.1
+pytest-asyncio==1.4.1
+fastapi[standard]==0.162.0
+httpx==0.28.1
+httpie==3.2.4

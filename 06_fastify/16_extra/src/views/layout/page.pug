@@ -1,0 +1,11 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='utf-8')
+    title Посты
+  body
+    if flash
+      each messages, type in flash
+        each message in messages
+          p(class='alert alert-' + type)= message
+    block content

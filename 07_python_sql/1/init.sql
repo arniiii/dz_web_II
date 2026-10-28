@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS movies;
+
+CREATE TABLE movies (
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    title VARCHAR(255),
+    release_year INTEGER,
+    duration INTEGER
+);

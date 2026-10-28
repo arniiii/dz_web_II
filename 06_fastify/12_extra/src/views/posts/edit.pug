@@ -1,0 +1,14 @@
+extends ../layout/page.pug
+
+block content
+  h1 Редактирование поста
+  each error in errors
+    p= error
+  form(action='/posts/' + post.id, method='post')
+    div
+      label Название
+        input(type='text', name='title', value=post.title)
+    div
+      label Текст
+        textarea(name='body')= post.body
+    button(type='submit') Сохранить

@@ -1,0 +1,1 @@
+curl --silent -H "Authorization: Bearer hexlet-jwt-token" http://localhost:8080/private

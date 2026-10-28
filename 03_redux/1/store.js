@@ -1,0 +1,18 @@
+import omit from "lodash/omit";
+import { legacy_createStore as createStore } from "redux";
+
+// BEGIN (write your solution here)
+const reducer = (state = {}, action) => {
+  switch (action.type) {
+    case 'TASK_ADD': {
+      const { task } = action.payload;
+      return { ...state, [task.id]: task };
+    }
+    case 'TASK_REMOVE':
+      return omit(state, action.payload.id);
+    default:
+      return state;
+  }
+};
+export default (initialState = {}) => createStore(reducer, initialState);
+// END

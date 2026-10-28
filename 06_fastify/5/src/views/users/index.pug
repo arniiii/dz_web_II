@@ -1,0 +1,12 @@
+h1 Пользователи
+table
+  thead
+    tr
+      th Имя
+      th Email
+  tbody
+    each user in users
+      tr
+        td
+          a(href='/users/' + user.id)= user.username
+        td= user.email

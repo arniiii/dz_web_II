@@ -1,0 +1,13 @@
+extends ../layout/page.pug
+
+block content
+  each error in errors
+    p= error
+  form(action='/articles', method='post')
+    div
+      label Название
+        input(type='text', name='title', value=article.title)
+    div
+      label Текст
+        textarea(type='text', name='text')= article.text
+    input(type='submit', value='Создать')

@@ -1,0 +1,9 @@
+[project]
+name = "fastapi-intro-task-1"
+version = "0.1.0"
+description = "Exercise"
+requires-python = ">=3.10"
+dependencies = ["fastapi[standard]>=0.115,<1.0"]
+
+[dependency-groups]
+dev = ["pytest>=8.3"]

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Definitions 1 1`] = `
+<dl>
+  <dt>
+    one
+  </dt>
+  <dd>
+    two
+  </dd>
+  <dt>
+    another term
+  </dt>
+  <dd>
+    another description
+  </dd>
+</dl>
+`;
+
+exports[`Definitions 2 1`] = `
+<dl>
+  <dt>
+    one
+  </dt>
+  <dd>
+    two
+  </dd>
+</dl>
+`;
+
+exports[`Definitions 3 1`] = `
+<dl>
+  <dt>
+    another term
+  </dt>
+  <dd>
+    another description
+  </dd>
+  <dt>
+    one
+  </dt>
+  <dd>
+    two
+  </dd>
+</dl>
+`;
+
+exports[`Definitions 4 1`] = `null`;

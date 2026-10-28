@@ -1,0 +1,1 @@
+curl --silent -X POST -H "Content-Type: application/json" -d "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"greet\",\"params\":{\"name\":\"Tota\"}}" http://localhost:8080/json-rpc

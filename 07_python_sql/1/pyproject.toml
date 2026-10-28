@@ -1,0 +1,13 @@
+[project]
+name = "python-sql-task-1"
+version = "0.1.0"
+description = "Учебное задание 1 по Python и PostgreSQL"
+requires-python = ">=3.10"
+dependencies = [
+    "psycopg[binary]",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+]

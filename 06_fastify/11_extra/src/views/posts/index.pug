@@ -1,0 +1,11 @@
+extends ../layout/page.pug
+
+block content
+  h1 Посты
+  each post in posts
+    p
+      a(href='/posts/' + post.id)= post.title
+  nav
+    a(href='/posts?page=' + previousPage) Назад
+    |  
+    a(href='/posts?page=' + nextPage) Вперед
